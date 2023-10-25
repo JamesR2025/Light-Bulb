@@ -1,0 +1,46 @@
+*{
+    text-align: center;
+    background-color: black;
+}
+h1{
+    color: red;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+#buttonOn{
+    color: red;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+#buttonOff{
+    color: red;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+#bulb{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+
+
+}
+
+#bulb.on{
+    background-color: yellow;
+}
+
+#bulb.off{
+    background-color: white;
+}
+
